@@ -11,9 +11,15 @@
     'author': 'Anass Hajjouj',
     'website': 'http://www.layamedconsulting.com.com',
     'category': '',
-    'depends': ['base','hr_payroll','account'],
+    'depends': ['base','hr_payroll'],
     'data': [
-
+        'views/payroll_order_payment.xml',
+        'report/bulettin_de_paie.xml',
+        'report/bulletin_report.xml',
+        'report/bulletin_template.xml',
+        'report/payroll_order_virement.xml',
+        'report/payroll_report.xml',
+        'report/payroll_template.xml',
     ],
     'installable': True,
     'application': True,
